@@ -1,0 +1,91 @@
+/* Navbar CSS */
+nav {
+  background-color: var(--facebook_bg);
+  padding: 0.5rem 10vw;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+.fb-nav-input-gr {
+  display: flex;
+  margin-left: 12px;
+  width: 30vw;
+}
+
+.fb-nav-input-gr input {
+  border: none;
+  border-radius: 2px 0 0 2px;
+  padding: 4px 6px;
+  font-weight: 400;
+  font-size: 15px;
+  width: 90%;
+}
+
+.fb-nav-input-gr button {
+  border-radius: 0 2px 2px 0;
+  border: none;
+  background-color: rgb(240, 240, 240);
+  padding: 0 1rem;
+}
+
+.fb-right-menu {
+  display: flex;
+  margin-left: 10vw;
+}
+
+.fb-menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.fb-menu-list a.icon {
+  opacity: 0.6;
+}
+
+.fb-menu-list a {
+  display: flex;
+  line-height: 27px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 2px 0.9rem;
+  letter-spacing: 0.2px;
+  position: relative;
+}
+
+.fb-menu-list a.text:hover {
+  background-color: var(--facebook-bg_dark);
+}
+
+.fb-menu-list a.text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  width: 1.4px;
+  height: 70%;
+  background-color: var(--facebook-bg_dark);
+}
+
+.fb-menu-list a.icon {
+  border-color: transparent;
+  padding: 2px 0.6rem;
+}
+
+.fb-menu-list a.icon:hover {
+  opacity: 1;
+}
+
+.fb-nav-avatar {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 8px;
+}

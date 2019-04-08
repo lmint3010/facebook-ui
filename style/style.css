@@ -1,0 +1,278 @@
+:root {
+  --facebook_bg: #4267b2;
+  --facebook-bg_dark: #385898;
+  --facebook-body-color: #e9ebee;
+  --text-gray-color: #979797;
+  --text-dark-color: rgba(0, 0, 0, 0.8);
+  --icon-list-1: url("https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/QGU-KYG8ZDq.png");
+  --icon-group-title: url("https://static.xx.fbcdn.net/rsrc.php/v3/yY/r/p51rMZ3W8h_.png");
+  --border-radius: 2px;
+}
+
+* {
+  background-repeat: no-repeat;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.825rem;
+  color: white;
+  background-color: var(--facebook-body-color);
+}
+
+/* Facebook Container */
+.fb-container {
+  color: var(--text-dark-color);
+  padding: 0 20vw 0 10vw;
+  display: flex;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fb-left-box {
+  background-color: transparent;
+  width: 20%;
+  box-sizing: border-box;
+  padding-right: 12px;
+}
+
+.fb-right-box {
+  background-color: transparent;
+  width: 80%;
+}
+
+.fb-group-title {
+  font-weight: 400;
+}
+
+.fb-group-access,
+.fb-group-subtitle {
+  color: var(--text-gray-color);
+  font-weight: 500;
+  font-size: 14.5px;
+  display: flex;
+}
+
+.fb-body-left-options {
+  margin-top: 1.4rem;
+  font-size: 0.94rem;
+}
+
+.fb-body-left-options a {
+  padding: 6px 4px;
+  margin: 4px 0;
+  border: 1px solid transparent;
+}
+
+.fb-body-left-options a.active {
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-color: rgba(50, 50, 50, 0.2);
+}
+
+.fb-body-left-options a:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.fb-left-box-search {
+  display: flex;
+  width: 100%;
+  margin: 1rem 0;
+}
+
+.fb-left-box-search > * {
+  border-color: transparent;
+  padding: 8px auto;
+}
+
+.fb-left-box-search input {
+  width: 100%;
+  padding: 4px;
+  font-size: 0.85rem;
+  border-radius: 2px;
+}
+
+.fb-left-box-search input::placeholder {
+  color: rgba(100, 100, 100, .5);
+}
+
+.fb-group-subtitle {
+  margin-bottom: 6px;
+  margin-top: 2rem;
+}
+
+.option-icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/hm4q__94FyM.png?_nc_eui2=AeHoXRIUrpq_vJA4LiXJJ56kOaPiS5wEVtliiQwvw2Ikw7eQcc0_oQTr0CuZqcGnD4DV_z5NSTYEgDHs796OGyTdXn2GJ29fR95t2t5lAc5VSw");
+  width: 16px;
+  height: 16px;
+  display: block;
+  padding: 1px;
+  border-radius: 50%;
+  background-position: center center;
+  margin-right: 0.6rem;
+}
+
+/* Right Container Header */
+.cover-photo {
+  height: 24rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover-photo img {
+  position: absolute;
+  left: 0;
+  top: -30%;
+}
+
+.divider-6 {
+  width: 60%;
+  padding-right: 8px;
+}
+
+.divider-4 {
+  width: 40%;
+  padding-left: 8px;
+}
+
+.group-card-footer, .group-card-header, .group-card, .group-card-body {
+  background-color: white;
+  padding: .86rem;
+}
+
+.group-card {
+  margin-bottom: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.group-card.status-box {
+  padding: 0 .8rem;
+}
+
+.group-card.status-box .group-card-header, .group-card.status-box .group-card-footer {
+  padding-left: 0;
+}
+
+.status-box-header-options, .status-box-footer-options {
+  font-weight: 500;
+}
+
+.status-box-header-options a, .status-box-footer-options a {
+  margin-right: 12px;
+  border-right: 1px solid lightgray;
+  padding-right: 12px;
+}
+
+.status-box-footer-options a {
+  background-color: #F2F3F5;
+  border-color: #F2F3F5;
+  color: #4b4f56;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+}
+
+.status-box-header-options a:hover {
+  margin-right: 8px;
+  border-right: 1px solid lightgray;
+  padding-right: 8px;
+  background-color: rgba(200, 200, 200, .4);
+}
+
+.status-input {
+  border-color: transparent;
+  margin-left: 1.4rem;
+  font-size: .86rem;
+}
+
+.status-input::placeholder {
+  font-size: .9rem;
+  color: rgba(50, 50, 50, .5);
+}
+
+.group-card-header .title {
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, .6);
+}
+
+.group-card-header {
+  border-bottom: 1px solid rgba(200, 200, 200, .4);
+}
+
+.group-card-body {
+  line-height: 1.4rem;
+}
+
+.group-couple-btn a {
+  font-weight: 500;
+  letter-spacing: .4px;
+  border: 1px solid rgba(163, 163, 163, 0.6);
+  border-radius: 4px;
+  padding: 6px 12px;
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  align-items: center;
+}
+
+.group-couple-btn a:first-child {
+  border-radius: 2px 0 0 2px;
+  border-right-width: 0;
+}
+
+.group-couple-btn a:nth-child(2) {
+  border-radius: 0 2px 2px 0;
+}
+
+/* Reactors */
+.group-reactor {
+  padding-top: 6px;
+}
+
+.group-reactor a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  font-size: .9rem;
+  font-weight: 500;
+  color: rgb(107, 107, 107);
+  flex-grow: 1;
+}
+
+.group-reactor a:hover {
+  background-color: #F2F3F5;
+}
+
+.group-reactions {
+  border-bottom: 1px solid rgba(180, 180, 180, .4);
+  padding: 8px 0;
+  align-items: center;
+}
+
+.total-react, .react-details {
+  margin-left: 8px;
+  color: rgba(50, 50, 50, .5);
+}
+
+.total-react:hover, .react-details a:hover {
+  text-decoration: underline;
+}

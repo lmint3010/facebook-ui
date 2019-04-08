@@ -1,0 +1,175 @@
+.icon {
+  overflow: hidden;
+  text-indent: -999px;
+  display: block;
+  white-space: nowrap;
+}
+
+.fb-public-group.icon {
+  background-image: var(--icon-group-title);
+  background-size: 13px 91px;
+  background-position: 0 -52px;
+  height: 12px;
+  width: 12px;
+}
+
+.fb-search-left-box.icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/2bgk0Nj8UXC.png");
+  background-size: 161px 376px;
+  background-position: -68px -304px;
+  height: 16px;
+  width: 16px;
+}
+
+.fb-logo.icon,
+.fb-search.icon,
+.fb-friends.icon,
+.fb-messenger.icon,
+.fb-bell.icon,
+.fb-question.icon {
+  background-image: var(--icon-list-1);
+  background-size: 29px 1475px;
+  background-position: 0 -442px;
+  display: block;
+  height: 24px;
+  width: 24px;
+}
+
+.fb-search.icon {
+  background-position: 0 -1445px;
+  height: 14px;
+  width: 14px;
+}
+
+.fb-friends.icon {
+  background-position: 0 -867px;
+}
+
+.fb-messenger.icon {
+  background-position: 0 -917px;
+}
+
+.fb-bell.icon {
+  background-position: 0 -767px;
+}
+
+.fb-question.icon {
+  background-position: 0 -967px;
+}
+
+.icon.bluecheck, .icon.share, .icon.more {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/2bgk0Nj8UXC.png");
+  background-size: 161px 376px;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  background-position: -65px -363px;
+}
+
+.icon.share {
+  background-position: -104px -363px;
+}
+
+.icon.more {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/3zYpdvI9svU.png");
+  background-size: 500px 287px;
+  width: 16px;
+  height: 16px;
+  background-position: -68px -270px;
+}
+
+.status-box-icons.icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/iDnhq-pm5_P.png");
+  background-size: 201px 576px;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.status-box-icons.icon.write {
+  background-position: -68px -559px;
+}
+
+.status-box-icons.icon.photoandvideo {
+  background-position: 0 -559px;
+}
+
+.status-box-icons.icon.livevideo {
+  background-position: -102px -559px;
+}
+
+.status-box-icons.icon.morestatus {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yr/r/KSZvtRyuQPU.png");
+  background-size: 25px 359px;
+  background-position: 0 -265px;
+}
+
+.status-box-icons-footer.icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yB/r/Q3ZDcU4sNtW.png");
+  background-size: 32px 1961px;
+  height: 20px;
+  width: 20px;
+  margin-right: 6px;
+}
+
+.status-box-icons-footer.icon.photos {
+  background-position: 0 -884px;
+}
+
+.status-box-icons-footer.icon.popcorn {
+  background-position: 0 -1157px;
+}
+
+.status-box-icons-footer.icon.tagfriends {
+  background-position: 0 -548px;
+}
+
+.status-box-icons-footer.icon.footermore {
+  background-position: 0 -1472px;
+  margin: 0;
+}
+
+.reactor-icons.icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yN/r/oyTR4oY0VQU.png");
+  background-size: 55px 237px;
+  height: 18px;
+  width: 18px;
+  margin-right: 6px;
+}
+
+.reactor-icons.like-icon.icon {
+  background-position: -19px -131px;
+}
+
+.reactor-icons.comment-icon.icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/2bgk0Nj8UXC.png");
+  background-repeat: no-repeat;
+  background-size: 161px 376px;
+  background-position: -42px -249px;
+}
+
+.reactor-icons.share-icon.icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/2bgk0Nj8UXC.png");
+  background-repeat: no-repeat;
+  background-size: 161px 376px;
+  background-position: -61px -249px;
+}
+
+.reactset-icons .icon {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y3/r/ry89JfTmge2.png");
+  background-size: 49px 660px;
+  width: 16px;
+  height: 16px;
+}
+
+.reactset-icons .icon.likeitem {
+  background-position: 0 -526px;
+}
+
+.reactset-icons .icon.loveitem {
+  background-position: -17px -492px;
+}
+
+.reactset-icons .icon.hahaitem {
+  background-position: -17px -475px;
+}
